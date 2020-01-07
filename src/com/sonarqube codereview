@@ -1,11 +1,11 @@
 #!/usr/bin/env groovy
-package com.cleverbuilder
+package com.sonarqube
 
 class GlobalVars {
    static String foo = "bar"
 
    // refer to this in a pipeline using:
    //
-   // import com.cleverbuilder.GlobalVars
+   // import com.sonarqube.GlobalVars
    // println GlobalVars.foo
 }
